@@ -304,6 +304,9 @@ button {
  }
 
 .container-social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #4D5AE5;
     width: 40px;
     height: 40px;
@@ -403,6 +406,8 @@ button {
  }
 
  .footer {
+    display: flex;
+   align-items: center;
     background-color: #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -413,6 +418,11 @@ button {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     width: 264px;
+ }
+
+ .title-social {
+    color: #fff;
+    margin-bottom: 16px;
  }
 
  .logo-footer {
