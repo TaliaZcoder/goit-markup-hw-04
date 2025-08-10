@@ -304,7 +304,7 @@ button {
  .list-social {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
     justify-content: center;
     height: 40px;
  }
@@ -322,7 +322,7 @@ button {
  }
 
  .nav-social-icon:hover,  .nav-social-icon:focus {
-    background-color:  #31d0aa;
+    background-color:  #404bbf;
  }
 
 .container-social-icon {
@@ -336,9 +336,6 @@ button {
     fill: #f4f4fd ; 
 }
 
-.icon-social:hover {
-    background-color: #31d0aa;
-}
 
  .item-team {
     background-color: #FFFFFF;
@@ -469,6 +466,11 @@ button {
  .logo-footer {
     display: inline-block;
     margin-bottom: 16px;
+ }
+
+ .nav-social-icon.footer-nsi:hover, 
+ .nav-social-icon.footer-nsi:focus {
+    background-color: #31d0aa;
  }
 
 
