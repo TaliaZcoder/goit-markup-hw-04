@@ -468,6 +468,10 @@ button {
     margin-bottom: 16px;
  }
 
+  .footer-container .list-social {
+    gap: 16px;
+  }
+
  .nav-social-icon.footer-nsi:hover, 
  .nav-social-icon.footer-nsi:focus {
     background-color: #31d0aa;
